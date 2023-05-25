@@ -107,9 +107,9 @@ while gameCheck == True: #This while loop check the all games to be done.
                       
     print("Would you like to play again?\n1.Yes   2.No")
     a = input()
-    if a=="1":
+    if a == "1":
         game=False
         gameCheck = True
-    elif a=="2":
+    elif a == "2":
         print("Thansk for using us.")
         gameCheck = False
